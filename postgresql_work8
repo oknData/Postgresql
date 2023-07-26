@@ -1,0 +1,91 @@
+CREATE TABLE empleyee (
+	id INTEGER,
+	name VARCHAR(50),
+	birthday DATE,
+	email VARCHAR(100)
+);
+
+ALTER TABLE empleyee
+RENAME TO employee;
+
+SELECT * FROM employee ;
+insert into employee (name, birthday, email) values ('Walton Pegg', '1983-10-01', 'wpegg0@eepurl.com');
+insert into employee (name, birthday, email) values ('Karrie Zimmermanns', null, 'kzimmermanns1@live.com');
+insert into employee (name, birthday, email) values ('Rakel Castledine', '1931-05-29', 'rcastledine2@biblegateway.com');
+insert into employee (name, birthday, email) values ('Athena Ferrino', null, 'aferrino3@sun.com');
+insert into employee (name, birthday, email) values ('Arnuad Soanes', '2000-03-04', 'asoanes4@youtu.be');
+insert into employee (name, birthday, email) values ('Gwen Treharne', '1928-05-30', 'gtreharne5@businesswire.com');
+insert into employee (name, birthday, email) values ('Ewell Randales', null, 'erandales6@amazon.de');
+insert into employee (name, birthday, email) values ('Sid Hollington', '1916-12-26', 'shollington7@creativecommons.org');
+insert into employee (name, birthday, email) values ('Bettine End', null, 'bend8@mayoclinic.com');
+insert into employee (name, birthday, email) values ('Merrick Skerratt', '1952-10-14', 'mskerratt9@cargocollective.com');
+insert into employee (name, birthday, email) values ('Francene Sanchez', '1994-04-23', 'fsancheza@disqus.com');
+insert into employee (name, birthday, email) values ('Ezmeralda Dawtre', '1922-06-29', 'edawtreb@posterous.com');
+insert into employee (name, birthday, email) values ('Gwendolen Thunderman', '1933-02-12', null);
+insert into employee (name, birthday, email) values ('Marilyn Rosiello', null, 'mrosiellod@stanford.edu');
+insert into employee (name, birthday, email) values ('Ingunna McBay', '1991-01-31', 'imcbaye@quantcast.com');
+insert into employee (name, birthday, email) values ('Jenifer Poutress', '1929-01-24', null);
+insert into employee (name, birthday, email) values ('Leola Weare', '1923-04-20', 'lweareg@newyorker.com');
+insert into employee (name, birthday, email) values ('Harland Jerson', '1924-09-03', 'hjersonh@last.fm');
+insert into employee (name, birthday, email) values ('Gui Noonan', '1979-11-25', 'gnoonani@yandex.ru');
+insert into employee (name, birthday, email) values ('Mahmoud Ballister', '1903-06-11', 'mballisterj@people.com.cn');
+insert into employee (name, birthday, email) values ('Blondell Brizell', '1938-11-16', 'bbrizellk@zimbio.com');
+insert into employee (name, birthday, email) values ('Orelie Moulin', '1988-10-28', 'omoulinl@quantcast.com');
+insert into employee (name, birthday, email) values ('Shellie Sebring', '1964-01-10', 'ssebringm@redcross.org');
+insert into employee (name, birthday, email) values ('Niall Sergeaunt', null, 'nsergeauntn@ed.gov');
+insert into employee (name, birthday, email) values ('Amelita Hurn', null, 'ahurno@theguardian.com');
+insert into employee (name, birthday, email) values ('Violante Kahn', '1963-06-30', 'vkahnp@illinois.edu');
+insert into employee (name, birthday, email) values ('Alfonso Copson', '1982-11-29', 'acopsonq@wp.com');
+insert into employee (name, birthday, email) values ('Nalani Antyukhin', '1978-05-28', 'nantyukhinr@example.com');
+insert into employee (name, birthday, email) values ('Hermy Howbrook', '1937-03-01', 'hhowbrooks@prweb.com');
+insert into employee (name, birthday, email) values ('Kermie Wehner', null, 'kwehnert@scientificamerican.com');
+insert into employee (name, birthday, email) values ('Gay Godsafe', null, 'ggodsafeu@blogspot.com');
+insert into employee (name, birthday, email) values ('Rozella Dimic', '1908-07-24', 'rdimicv@linkedin.com');
+insert into employee (name, birthday, email) values ('Kath Bride', null, 'kbridew@usnews.com');
+insert into employee (name, birthday, email) values ('Umberto Joinsey', null, 'ujoinseyx@jimdo.com');
+insert into employee (name, birthday, email) values ('Ange Kasman', null, 'akasmany@harvard.edu');
+insert into employee (name, birthday, email) values ('Kyle Halfhead', '1980-05-01', 'khalfheadz@ebay.co.uk');
+insert into employee (name, birthday, email) values ('Jeremias Nutty', null, 'jnutty10@jiathis.com');
+insert into employee (name, birthday, email) values ('Angela Kenewel', null, 'akenewel11@comsenz.com');
+insert into employee (name, birthday, email) values ('Elissa Birrane', null, 'ebirrane12@smugmug.com');
+insert into employee (name, birthday, email) values ('Andreas Fairholme', '1992-02-17', 'afairholme13@businessinsider.com');
+insert into employee (name, birthday, email) values ('Natividad Chippin', null, 'nchippin14@google.com');
+insert into employee (name, birthday, email) values ('Olenolin Hurdis', '1930-09-02', 'ohurdis15@amazon.co.uk');
+insert into employee (name, birthday, email) values ('Malia Samson', null, 'msamson16@phpbb.com');
+insert into employee (name, birthday, email) values ('Andy Endle', '1929-01-20', 'aendle17@stumbleupon.com');
+insert into employee (name, birthday, email) values ('Maible Treharne', '1931-07-29', 'mtreharne18@apple.com');
+insert into employee (name, birthday, email) values ('Elora MacGebenay', '1928-02-15', 'emacgebenay19@msu.edu');
+insert into employee (name, birthday, email) values ('Joey Cowpertwait', '1943-12-01', null);
+insert into employee (name, birthday, email) values ('Reina Blenkensop', '1982-08-22', 'rblenkensop1b@nature.com');
+insert into employee (name, birthday, email) values ('Charlena Codd', '1917-05-17', 'ccodd1c@intel.com');
+insert into employee (name, birthday, email) values ('Rachelle Bossel', '1973-05-12', 'rbossel1d@dailymail.co.uk');
+
+SELECT * FROM employee;
+
+UPDATE employee
+SET name = 'Maksim Gorki'
+WHERE name = 'Athena Ferrino'
+RETURNING *;
+
+UPDATE employee
+SET email = 'maksim@gorki.com'
+WHERE email = 'aferrino3@sun.com'
+RETURNING *;
+
+SELECT * FROM public.employee
+
+
+UPDATE employee
+SET name = 'Jack London'
+WHERE email = 'aferrino3@sun.com'
+RETURNING *;
+
+DELETE FROM employee
+WHERE birthday = '1983-10-01';
+
+DELETE FROM employee
+WHERE birthday = '1983-10-01'
+RETURNING * ;DELETE FROM employee
+
+WHERE birthday = '1916-12-26'
+RETURNING * ;
